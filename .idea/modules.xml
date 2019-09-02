@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-admin/service-admin.iml" filepath="$PROJECT_DIR$/service-admin/service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springCloudTemplete.iml" filepath="$PROJECT_DIR$/.idea/springCloudTemplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml" filepath="$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml" filepath="$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml" />
+    </modules>
+  </component>
+</project>
