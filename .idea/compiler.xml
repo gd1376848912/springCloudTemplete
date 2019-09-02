@@ -7,17 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web-admin-feign" />
-        <module name="service-admin" />
-        <module name="web-admin-ribbon" />
         <module name="eureka" />
+        <module name="web-admin-ribbon" />
+        <module name="zuul" />
+        <module name="service-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dependencies" target="1.5" />
-      <module name="eureka" target="1.5" />
-      <module name="service-admin" target="1.5" />
-      <module name="web-admin-feign" target="1.5" />
-      <module name="web-admin-ribbon" target="1.5" />
+      <module name="dependencies" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="service-admin" target="1.8" />
+      <module name="web-admin-feign" target="1.8" />
+      <module name="web-admin-ribbon" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="service-admin" options="-parameters" />
+      <module name="web-admin-feign" options="-parameters" />
+      <module name="web-admin-ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
   </component>
 </project>
