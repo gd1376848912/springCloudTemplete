@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="dependencies" />
+      <module name="springCloudTemplete" />
+      <module name="web-admin-feign" />
+      <module name="eureka" />
+      <module name="service-admin" />
+      <module name="web-admin-ribbon" />
+      <module name="zuul" />
+      <module name="config" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f978d3e-5ac6-4d91-85d1-69cd2e055ea1" name="Default Changelist" comment="">
+    <list default="true" id="7f978d3e-5ac6-4d91-85d1-69cd2e055ea1" name="Default Changelist" comment="开发环境">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springCloudTemplete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springCloudTemplete.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-admin/service-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/service-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/dependencies.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/sources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/sources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/service-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/service-admin/target/" />
     <ignored path="$PROJECT_DIR$/web-admin-ribbon/target/" />
@@ -22,6 +49,8 @@
     <ignored path="$PROJECT_DIR$/dependencies/target/" />
     <ignored path="$PROJECT_DIR$/zuul/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,111 +61,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/provider/WebAdminFeignFallBackProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/filter/LoginFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/java/com/gordon/spring/cloud/config/ConfigApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-admin-ribbon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/config/RestTemplateConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/controller/RibbonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/WebAdminRibbonApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,35 +77,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/java/com/gordon/spring/cloud/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/sources/application.yml" />
         <option value="$PROJECT_DIR$/service-admin/src/main/java/com/gorodn/spring/cloud/service/admin/ServiceAdminApplication.java" />
         <option value="$PROJECT_DIR$/service-admin/src/main/java/com/gorodn/spring/cloud/service/admin/controller/ServiceController.java" />
-        <option value="$PROJECT_DIR$/service-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/controller/WebContrller.java" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/controller/WebController.java" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/service/hystrix/AdminServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/service/hystrix/WebServiceHystrix.java" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/service/WebService.java" />
-        <option value="$PROJECT_DIR$/web-admin-feign/pom.xml" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/WebAdminFeignApplication.java" />
         <option value="$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/config/HystrixDashboardConfiguration.java" />
-        <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml" />
         <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/config/RestTemplateConfiguration.java" />
         <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/controller/RibbonController.java" />
         <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/WebAdminRibbonApplication.java" />
-        <option value="$PROJECT_DIR$/web-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/service/RibbonService.java" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/provider/WebAdminFeignFallBackProvider.java" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/config/src/main/java/com/gordon/spring/cloud/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/java/com/gordon/spring/cloud/zipkin/ZipkinApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/java/com/gordon/spring/cloud/zipkin/ZipKinApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/java2/com/gordon/spring/cloud/zipkin/ZipKinApplication.java" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/gordon/spring/cloud/admin/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/web-admin-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/web-admin-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config/src/main/sources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/sources/application.yml" />
+        <option value="$PROJECT_DIR$/service-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web-admin-feign/src/main/sources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-prod.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-dev.yml" />
+        <option value="$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml" />
       </list>
     </option>
   </component>
@@ -190,6 +128,11 @@
         <option name="localRepository" value="D:\IntelliJ IDEA 2019.1.3\plugins\maven\localrepository" />
         <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -212,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,27 +164,10 @@
               <item name="springCloudTemplete" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloudTemplete" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springCloudTemplete" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudTemplete" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudTemplete" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudTemplete" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
-              <item name="respo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloudTemplete" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloudTemplete" type="462c0819:PsiDirectoryNode" />
-              <item name="web-admin-ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,13 +178,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.12515645" />
+    <property name="project.structure.side.proportion" value="0.19882178" />
     <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VueProject\springCloudTemplete\web-admin-feign\src\main\sources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VueProject\springCloudTemplete\web-admin-feign" />
+      <recent name="D:\VueProject\springCloudTemplete\config" />
+      <recent name="D:\VueProject\springCloudTemplete\dependencies" />
+      <recent name="D:\VueProject\springCloudTemplete\zipkin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -277,7 +221,40 @@
     </option>
     <option name="contentProportion" value="0.19251627" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAdminApplication">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="mvn-profile-example" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/admin" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gordon.spring.cloud.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gordon.spring.cloud.config.ConfigApplication" />
@@ -326,6 +303,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipKinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gordon.spring.cloud.zipkin.ZipKinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gordon.spring.cloud.zuul.ZuulApplication" />
@@ -334,12 +318,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.mvn-profile-example" />
       <item itemvalue="Spring Boot.WebAdminFeignApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ZipKinApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ServiceAdminApplication" />
-      <item itemvalue="Spring Boot.ConfigApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -361,17 +348,62 @@
       <workItem from="1567400722049" duration="625000" />
       <workItem from="1567406684039" duration="3859000" />
       <workItem from="1567410594111" duration="8792000" />
-      <workItem from="1567474638415" duration="1509000" />
+      <workItem from="1567474638415" duration="7538000" />
+      <workItem from="1567482958833" duration="7996000" />
+      <workItem from="1567562422216" duration="1134000" />
     </task>
+    <task id="LOCAL-00001" summary="开发环境">
+      <created>1567476221444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567476221444</updated>
+    </task>
+    <task id="LOCAL-00002" summary="开发环境">
+      <created>1567476233883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567476233883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="生产环境配置">
+      <created>1567477490312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567477490312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="开发环境">
+      <created>1567477512917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567477512917</updated>
+    </task>
+    <task id="LOCAL-00005" summary="加入zipkin">
+      <created>1567481528035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567481528035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="配置admin">
+      <created>1567497339082</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567497339082</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14785000" />
+    <option name="totallyTimeSpent" value="29944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22489317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,21 +412,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32969433" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4989083" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.510917" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,30 +442,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="生产环境配置" />
+    <MESSAGE value="开发环境" />
+    <MESSAGE value="加入zipkin" />
+    <MESSAGE value="配置admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置admin" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-admin/src/main/java/com/gorodn/spring/cloud/service/admin/controller/ServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/gordon/spring/cloud/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -444,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/sources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-admin/src/main/java/com/gorodn/spring/cloud/service/admin/ServiceAdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -458,13 +473,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -496,13 +504,6 @@
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/maven/localrepository/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.0.0.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.0.0.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-admin-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-admin-feign/src/main/java/com/gordon/spring/cloud/web/admin/feign/service/WebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -533,40 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/admin/ribbon.java" />
-    <entry file="file://$PROJECT_DIR$/service-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/filter.java" />
     <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/service/RibbonService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/java/com/gordon/spring/cloud/web/com/gordon/spring/cloud/web/admin/ribbon/WebAdminRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -627,9 +588,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/filter/LoginFilter.java">
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/gordon/spring/cloud/zuul/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -637,36 +608,206 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/java/com/gordon/spring/cloud/zipkin/ZipKinApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/java/com/gordon/spring/boot/zipkin.java" />
+    <entry file="file://$PROJECT_DIR$/web-admin-ribbon/web-admin-ribbon.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-admin-feign/web-admin-feign.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/java/com/gordon/spring/cloud/zipkin/ZipKinApplication.java" />
     <entry file="file://$PROJECT_DIR$/config/src/main/java/com/gordon/spring/cloud/config/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/sources/application.yml">
+    <entry file="file://$PROJECT_DIR$/zipkin/zipkin.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/java2/com/gordon/spring/cloud/zipkin/ZipKinApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/localrepository/de/codecentric/spring-boot-admin-server/2.1.6/spring-boot-admin-server-2.1.6.jar!/de/codecentric/boot/admin/server/config/AdminServerWebConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="73" column="85" selection-start-line="73" selection-start-column="85" selection-end-line="73" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/gordon/spring/cloud/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/maven/localrepository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.0.0.RELEASE/spring-cloud-starter-netflix-eureka-server-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="624">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-admin-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-admin-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="624">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/sources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/sources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-admin-feign/src/main/sources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-admin-ribbon/src/main/sources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-admin-feign/src/main/sources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -679,7 +820,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
               </list>
             </option>
           </splitter-proportions>
@@ -687,10 +828,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
               </list>
             </option>
           </splitter-proportions>
@@ -701,7 +843,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
               </list>
             </option>
           </splitter-proportions>
@@ -709,10 +851,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
               </list>
             </option>
           </splitter-proportions>
@@ -720,11 +863,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>web-admin-ribbon</last-edited>
+          <last-edited>zipkin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
                 <option value="0.6" />
               </list>
             </option>
@@ -733,10 +876,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19882178" />
               </list>
             </option>
           </splitter-proportions>

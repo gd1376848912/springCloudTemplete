@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: web-admin-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: web-admin-feign
+      label: master
+      profile: prod
